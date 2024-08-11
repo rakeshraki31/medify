@@ -1,0 +1,17 @@
+/* Ensure the navlinks class has text color set to black */
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #000; /* Black text color */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Optional: If you want to add hover effects or other styles */
+.navlink:hover {
+  color: #555; /* Slightly darker color on hover */
+}
